@@ -56,6 +56,7 @@
     font-weight: 400;
     line-height: 120%;
 }
+
 .header-get-body {
     width: 100%;
     height: 95%;
@@ -64,11 +65,13 @@
     display: flex;
 
 }
+
 .get-body {
     width: 50%;
     /* border: 2px solid hotpink; */
 
 }
+
 .get-body h3 {
     color: rgb(255, 255, 255);
     font-size: 70px;
@@ -80,7 +83,8 @@
     font-family: "Inter", sans-serif;
 
 }
-.span-1{
+
+.span-1 {
     font-family: inherit;
 }
 
@@ -97,7 +101,7 @@
 
 .button {
     margin-left: 150px;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     gap: 30px;
 
@@ -151,6 +155,13 @@
     border-radius: 50%;
 }
 
+.ball i {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-card {
     /* width: auto;
     height: auto; */
@@ -187,9 +198,11 @@
     font-size: 16px;
     font-weight: 400;
 }
-.header-card-1-title{
+
+.header-card-1-title {
     margin-left: 10px;
 }
+
 .header-card-2 {
     margin: 0 auto;
     margin-top: -80%;
@@ -211,21 +224,618 @@
 }
 
 .header-card-2 p {
-    color: rgb(255, 255, 255);
+    ccolor: rgba(239, 237, 232, 0.65);
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
 
 }
 
-/* Main section  */
-.main{
+/* Main section start  */
+.main {
     width: 95%;
-    height: 800px;
+    height: auto;
     border: 2px solid firebrick;
     margin: 0 auto;
     background: black;
 }
 
+.main-change {
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+}
+
+.main-change h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.main-change p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.main-card {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.main-h4 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.main-p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.main-card-1 {
+    width: 231px;
+    height: 274px;
+    border: 1px solid red;
+}
+
+.main-card-1 img {
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+.main-card-2 {
+    width: 231px;
+    height: 274px;
+    border: 1px solid red;
+}
+
+.main-card-2 img {
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+.main-card-3 {
+    width: 231px;
+    height: 274px;
+    border: 1px solid red;
+}
+
+.main-card-3 img {
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+.main-card-4 {
+    width: 231px;
+    height: 274px;
+    border: 1px solid red;
+}
+
+.main-card-4 img {
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+/* main section part run start */
+.run {
+    width: 90%;
+    height: auto;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-title {
+    width: 45%;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    /* height: 350px; */
+
+}
+
+.run-title h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.run-title button {
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 16px 40px 16px 40px;
+}
+
+.run-title p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.run-img {
+    width: 45%;
+    margin: 20px;
+    border-radius: 20px;
+
+    border: 1px solid red;
+    /* height: 350px; */
+
+}
+
+.run-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: -20px;
+    padding: 20px;
+    margin-left: 280px;
+}
+
+/* main-training part start */
+.main-training {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.traning-title {
+    margin-top: 40px;
+}
+
+.traning-title h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+.traning-title p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-traning-img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid red;
+}
+
+.traninr-card-fast {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr 0.3fr;
+}
+
+.traing-card-secend {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.45fr 0.3fr 0.25fr;
+}
+
+.traning-card-1 {
+    /* width: 290px; */
+    height: 230px;
+    background: linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(./images/exercise1.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid yellowgreen;
+}
+
+.traning-card-2 {
+    /* width: 500px; */
+    height: 230px;
+    background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(./images/exercise2.png);
+    background-size: cover;
+    border: 1px solid yellowgreen;
+}
+
+.traning-card-3 {
+    /* width: 345px; */
+    height: 230px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/exercise3.png);
+    background-size: cover;
+    border: 1px solid yellowgreen;
+}
+
+.traning-card-4 {
+
+    height: 230px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/exercise4.png);
+    background-size: cover;
+    border: 1px solid yellowgreen;
+}
+
+.traning-card-5 {
+
+    height: 230px;
+    background: linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(./images/exercise5.jpg);
+    background-size: cover;
+    border: 1px solid yellowgreen;
+}
+
+.traning-card-6 {
+
+    height: 230pxpx;
+    background: linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(./images/exercise6.jpg);
+    background-size: cover;
+    border: 1px solid yellowgreen;
+}
+
+/* Bmi sectin start */
+
+.main-bmi h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+.main-bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* BMI section start */
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgb(172, 162, 162);
+    padding: 5px 10px;
+
+}
+
+.main-bmi-calculator {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi {
+    width: 100%;
+    background: rgb(34, 34, 34);
+}
+
+/* meet our team section part */
+.meet-our-team {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.meet-our-team h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.meet-our-team p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.meet-our-cart {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: rgb(34, 34, 34);
+    border: 1px solid aqua;
+}
+
+.meet-our-cart-1 {
+    display: grid;
+    margin-left: 42px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.meet-cart-1 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background: url(./images/trainer1.png);
+    background-size: cover;
+
+}
+
+.meet-cart-2 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background: url(./images/trainer2.png);
+    background-size: cover;
+
+}
+
+.meet-cart-3 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background: url(./images/trainer3.png);
+    background-size: cover;
+
+}
+
+.meet-our-cart-2 {
+    display: grid;
+    margin-left: 42px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.meet-cart-4 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    background: url(./images/trainer4.png);
+    background-size: cover;
+
+}
+
+.meet-cart-5 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    background: url(./images/trainer5.png);
+    background-size: cover;
+
+}
+
+.meet-cart-6 {
+    width: 326.67px;
+    height: 272px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    background: url(./images/trainer6.png);
+    background-size: cover;
+
+}
+
+.meet-cart-1 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-1 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.meet-cart-2 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-2 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.meet-cart-3 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-3 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.meet-cart-4 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-4 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.meet-cart-5 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-5 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.meet-cart-6 h4{
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.meet-cart-6 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+
+/* media section start */
+@media screen and (max-width:576px) {
+    .header-get-body {
+        flex-direction: column;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .get-body h3 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 120%;
+        margin-left: 60px;
+    }
+
+    .get-body p {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 120%;
+        margin-left: 60px;
+    }
+
+    .button {
+        width: 352px;
+        height: 54px;
+        display: flex;
+        margin-left: 60px;
+    }
+
+    .button .btn-1 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .button .btn-2 {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .header-title {
+        margin-left: -85px;
+    }
+
+    .header-ancor-tag {
+        margin-top: 85px;
+    }
+
+    .header-card-1 {
+        width: 160px;
+        height: 60px;
+        margin-top: -225px;
+        margin-left: 40px;
+    }
+
+    .header-card-1 h3 {
+        font-size: 30px;
+    }
+
+    .header-card-1 p {
+        font-size: 10px;
+    }
+
+    .header-card-2 {
+        width: 180px;
+        height: 60px;
+        margin-top: -500px;
+        margin-left: 50px;
+    }
+
+    .header-card-2 h3 {
+        font-size: 40px;
+    }
+
+    .header-card-2 p {
+        font-size: 10px;
+    }
 
 
+}
